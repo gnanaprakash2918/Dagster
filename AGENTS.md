@@ -75,4 +75,5 @@ The best part? You don’t need to be a Cursor user to benefit from the Dagster 
 You can install the MCP server right now through the dg[mcp] package, and easily enable it within your tool using dg mcp configure.
 
 
-Write a fully high quality rag
+Write a fully high quality rag that uses this mcp server to answer questions about graphql and dagster in general. 
+FOLLOW SOLID KISS DRY and keep the code as minimal as possible

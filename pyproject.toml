@@ -1,7 +1,16 @@
 [project]
-name = "dagster"
+name = "dagster-rag"
 version = "0.1.0"
-description = "Add your description here"
+description = "RAG chatbot for Dagster GraphQL documentation"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-huggingface",
+    "langchain-qdrant",
+    "langchain-ollama",
+    "qdrant-client",
+    "sentence-transformers",
+    "unstructured",
+]
